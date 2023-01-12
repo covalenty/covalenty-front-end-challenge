@@ -1,52 +1,49 @@
 # Sobre
 
-O desafio consiste em implementar uma aplicação client-side, responsiva e que rode em todos os principais navegadores utilizados no mercado. Este desafio foi pensado para todos os níveis de experiência, então não fique preocupado em entregar ele por completo caso esteja começando na área. :smile:
+The main objetive of this challenge is to implement a client-side and responsive site. We design this for all knowledge and experience levels, so don't be worry if you can not make it all and if you are just starting in the front-end jorney. 
 
-**O que esperamos?**
+**What we're expecting?**
 
-- Uma aplicação que consuma uma [API de produtos](https://fakeapi.platzi.com/en/rest/products#get-all-products).
-- Exiba uma lista de produtos e possibilite a navegação para o detalhe do produto
-- O site deverá ser responsivo
-- 
+- An application that consume an [product API](https://fakeapi.platzi.com/en/rest/products#get-all-products).
+- Show a list of prodcuts and make it possible for user to go see more details.
+- A responsive site.
 
-**O que iremos avaliar?**
+**What we're gone to evaluate?**
 
-- Como você trabalha e seu estilo de código
-- Qualidade de código (estrutura, nomenclatura, etc)
-- Como você resolve os problemas
-- Qualidade visual
+- How is your work and code style (including the git commits and PRs)
+- The code quality (structure, naming patterns, etc)
+- How you solve problems
+- Visual quality
 
-# Requisitos Obrigatórios
+**Mandatory requirements**
 
-Abaixo estão os requisitos obrigatórios do desafio.
+1. Products list
 
-1. Lista de produtos
+- Show the list of the products with pagination
+- Simple seach feature
+- Make it possible fot user go to the product detal page
 
-  - Lista de produtos com paginação
-  - Busca simples de produtos
-  - Ao clicar em um item da lista, ou em um botão, levar para o detalhe do produto
+2. Product Detail
 
-2. Detalhe do produto
+- Show the main informations about the product (image, price, description, name)
+- Make it possible to go back to the product list in the same page
 
-  - Exibir as principais informações do produto
-  - Possibilitar voltar para a lista na página em que o usuário estava
+**Optional requirements**
 
-# Requisitos opcionais 
+Here it's the time for you to shine! The list below is some examples of optionals requirements, but feel free to suggest and implement others that you think it's interesting to show yours skills! 😎
 
-Aqui vamos listar alguns requisitos opcionais de exemplo. Fique a vontade de sugerir e implementar outros requisitos que achar interessante! :sunglasses:
+- Category filter, ordering and different list visualizations (card, list)
+- Rating and comments
 
-- Filtros por categoria, ordenação e diferentes visualizações da lista (lista, cards, etc)
-- Rating, comentários no detalhe do produto
+And we'll be very happy if you show some:
 
-Também ficaremos bem felizes se você entregar coisas como: 
+- Animations
+- e2e tests
+- some feature that persists data in the client side
 
-- Animações
-- Testes e2e
-- Algum case que persista os dados no client
+# Tecnnologies and libs/frameworks
 
-# Tecnologias e bibliotecas
-
-**O que esperamos que você utilize**
+**What we expect**
 
 - React
 - Typescript
@@ -55,14 +52,17 @@ Também ficaremos bem felizes se você entregar coisas como:
 - Styled components
 - create-react-app (opcional)
 
-Fique a vontade de utilizar qualquer outra biblioteca adicional que precisar. Será ótimo ver você utilizando bibliotecas que facilitem o desenvolvimento em diveras partes como *code patterns*, *DOM testing*, *code testing*, *icon sets*. Supreenda-nos! :wink:
+And feel free to use any other kind of library that you need. Will be great to see what you can use to facilitate and make the development more efficient, clean and fast such as *code patterns*, *DOM testing*, *code testing*, *icon sets*. Show your skills! 😉
 
-**IMPORTANTE** Conforme comentado acima, vamos avaliar a qualidade visual do seu trabalho, então recomendamos não utilizar templates prontos. Queremos ver a sua habilidade de criar componentes visuais funcionais e bonitos
+**IMPORTANT NOTE** As we described earlier, we're gone to evaluate the visual quality of your work, so we strong recommend to not use any kind of visual templates. You can use some components, but we need to see your HTML and CSS skills to create visual and beautiful components.
 
-# Tempo e Entrega
+# Deadline and code delivery
 
-Tenha calma e planeje bem o seu desafio. Temos um prazo de 7 dias para você entregar o desafio. 
+Don't need to rush. You have 7 days to complete this challenge.
 
-Ao finalizar o desafio, publique o seu projeto em alguma url (vercel, netlify, surge, heroku, etc) e crie pull request para o repositório. Crie um README no seu projeto com as instruções de como rodar e o que achar necessário documentar.
+When you're done please publish it somewhere (vercel, netliy, surge, heroku, etc) and make a pull request for this repository. Also, include an README file with the build instructions and any other instructions that you think it's important.
+
+Let's go and good luck! 
+
 
 
