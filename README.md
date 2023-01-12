@@ -55,7 +55,7 @@ We'll be very happy if you show some:
 Feel free to use any other kind of library you may need. It will be great to see what you can do to facilitate and make the development process more efficient, clean and fast, such as *code patterns*, *DOM testing*, *code testing*, *icon sets*. Show your skills! 😉
 
 
-**IMPORTANT NOTE** As we described earlier, we're will evaluate your work's visual quality, so we strongly recommend not to use any kind of visual templates. You can use some components, but we need to see your HTML and CSS skills creating beautiful visual components.
+**IMPORTANT NOTE** As we described earlier, we will evaluate your work's visual quality, so we strongly recommend not to use any kind of visual templates. You can use some components, but we need to see your HTML and CSS skills creating beautiful visual components.
 
 # Deadline and code delivery
 
