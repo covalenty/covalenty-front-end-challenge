@@ -1,17 +1,17 @@
-# Sobre
+# About
 
-The main objetive of this challenge is to implement a client-side and responsive site. We design this for all knowledge and experience levels, so don't be worry if you can not make it all and if you are just starting in the front-end jorney. 
+The main objetive of this challenge is to implement a client-side and responsive site. This test targets all experience levels, so don't worry if you're not able to complete it, specially if you are just starting your front-end journey.
 
-**What we're expecting?**
+**What do we expect?**
 
-- An application that consume an [product API](https://fakeapi.platzi.com/en/rest/products#get-all-products).
-- Show a list of prodcuts and make it possible for user to go see more details.
+- An application that consumes a [product API](https://fakeapi.platzi.com/en/rest/products#get-all-products).
+- Shows a list of prodcuts and allow a user to see its details.
 - A responsive site.
 
-**What we're gone to evaluate?**
+**What are we going to evaluate?**
 
-- How is your work and code style (including the git commits and PRs)
-- The code quality (structure, naming patterns, etc)
+- Your work flow and code style (including git commits and PRs)
+- Code quality (structure, naming patterns, etc)
 - How you solve problems
 - Visual quality
 
@@ -19,27 +19,27 @@ The main objetive of this challenge is to implement a client-side and responsive
 
 1. Products list
 
-- Show the list of the products with pagination
-- Simple seach feature
-- Make it possible fot user go to the product detal page
+- Should show a list of products with pagination
+- Simple search feature
+- Allow user to navigate to the product detail
 
 2. Product Detail
 
-- Show the main informations about the product (image, price, description, name)
-- Make it possible to go back to the product list in the same page
+- Should show main information about the product (image, price, description, name)
+- Should allow user to navigate back to product list by interacting the page
 
 **Optional requirements**
 
-Here it's the time for you to shine! The list below is some examples of optionals requirements, but feel free to suggest and implement others that you think it's interesting to show yours skills! 😎
+It's the time for you to shine! Below you can find some examples of optional requirements, but feel free to suggest and implement others you think are interesting and would help showing us yours skills! 😎
 
 - Category filter, ordering and different list visualizations (card, list)
 - Rating and comments
 
-And we'll be very happy if you show some:
+We'll be very happy if you show some:
 
 - Animations
 - e2e tests
-- some feature that persists data in the client side
+- some feature that performs client side data persistence
 
 # Tecnnologies and libs/frameworks
 
@@ -52,17 +52,15 @@ And we'll be very happy if you show some:
 - Styled components
 - create-react-app (opcional)
 
-And feel free to use any other kind of library that you need. Will be great to see what you can use to facilitate and make the development more efficient, clean and fast such as *code patterns*, *DOM testing*, *code testing*, *icon sets*. Show your skills! 😉
+Feel free to use any other kind of library you may need. It will be great to see what you can do to facilitate and make the development process more efficient, clean and fast, such as *code patterns*, *DOM testing*, *code testing*, *icon sets*. Show your skills! 😉
 
-**IMPORTANT NOTE** As we described earlier, we're gone to evaluate the visual quality of your work, so we strong recommend to not use any kind of visual templates. You can use some components, but we need to see your HTML and CSS skills to create visual and beautiful components.
+
+**IMPORTANT NOTE** As we described earlier, we're will evaluate your work's visual quality, so we strongly recommend not to use any kind of visual templates. You can use some components, but we need to see your HTML and CSS skills creating beautiful visual components.
 
 # Deadline and code delivery
 
-Don't need to rush. You have 7 days to complete this challenge.
+No need to rush. You have 7 days to complete this challenge.
 
-When you're done please publish it somewhere (vercel, netliy, surge, heroku, etc) and make a pull request for this repository. Also, include an README file with the build instructions and any other instructions that you think it's important.
+When you're done please publish it somewhere (vercel, netliy, surge, heroku, etc) and make a pull request to this repository. Also, include a README file with build instructions and any other instructions you think are important.
 
-Let's go and good luck! 
-
-
-
+Let's go and good luck!
