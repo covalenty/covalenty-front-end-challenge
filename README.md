@@ -1,66 +1,92 @@
-# About
+🧪 Teste Técnico – Listagem e Detalhe de Produtos com React + Redux + React Query + Tailwind
+🎯 Objetivo
+Criar uma aplicação frontend que exibe uma lista de produtos e permite visualizar os detalhes de cada um, utilizando React, Tailwind CSS para o estilo, React Query para consumo de APIs, Redux para estado global e Axios como cliente HTTP.
 
-The main objetive of this challenge is to implement a client-side and responsive site. This test targets all experience levels, so don't worry if you're not able to complete it, specially if you are just starting your front-end journey.
+🛒 API pública sugerida (fictícia ou real)
+Use a seguinte API pública de exemplo:
 
-**What do we expect?**
+📦 Produtos: https://fakestoreapi.com/products
 
-- An application that consumes a [product API](https://fakeapi.platzi.com/en/rest/products#get-all-products).
-- Shows a list of prodcuts and allow a user to see its details.
-- A responsive site.
+📦 Detalhes de um produto: https://fakestoreapi.com/products/:id
 
-**What are we going to evaluate?**
+📌 Funcionalidades obrigatórias
+✅ Página de Listagem de Produtos
+Listar os produtos da API
 
-- Your work flow and code style (including git commits and PRs)
-- Code quality (structure, naming patterns, etc)
-- How you solve problems
-- Visual quality
+Exibir por produto:
 
-**Mandatory requirements**
+Imagem (image)
 
-1. Products list
+Nome (title)
 
-- Should show a list of products with pagination
-- Simple search feature
-- Allow user to navigate to the product detail
+Preço (price)
 
-2. Product Detail
+Organizar os produtos em cards responsivos com Tailwind
 
-- Should show main information about the product (image, price, description, name)
-- Should allow user to navigate back to product list by interacting the page
+Ao clicar em um produto, redirecionar para a página de detalhe
 
-**Optional requirements**
+✅ Página de Detalhe do Produto
+Buscar produto por ID via React Query e exibir:
 
-It's the time for you to shine! Below you can find some examples of optional requirements, but feel free to suggest and implement others you think are interesting and would help showing us yours skills! 😎
+Nome
 
-- Category filter, ordering and different list visualizations (card, list)
-- Rating and comments
+Imagem
 
-We'll be very happy if you show some:
+Descrição
 
-- Animations
-- e2e tests
-- some feature that performs client side data persistence
+Categoria
 
-# Tecnnologies and libs/frameworks
+Preço
 
-**What we expect**
+Botão para voltar para a listagem
 
-- React
-- Typescript
-- ES6+
-- React Hooks
-- Styled components
-- create-react-app (opcional)
+🧠 Requisitos técnicos
+React
+Componentização limpa e reutilizável
 
-Feel free to use any other kind of library you may need. It will be great to see what you can do to facilitate and make the development process more efficient, clean and fast, such as *code patterns*, *DOM testing*, *code testing*, *icon sets*. Show your skills! 😉
+Tailwind CSS
+Usar Tailwind para toda a estilização
 
+Responsividade obrigatória
 
-**IMPORTANT NOTE** As we described earlier, we will evaluate your work's visual quality, so we strongly recommend not to use any kind of visual templates. You can use some components, but we need to see your HTML and CSS skills creating beautiful visual components.
+React Query
+Utilizar React Query para busca de dados da API
 
-# Deadline and code delivery
+Tratar loading e erros
 
-No need to rush. You have 7 days to complete this challenge.
+Axios
+Utilizar Axios como cliente HTTP
 
-When you're done please publish it somewhere (vercel, netliy, surge, heroku, etc) and make a pull request to this repository. Also, include a README file with build instructions and any other instructions you think are important.
+Redux
+Armazenar no Redux:
 
-Let's go and good luck!
+Produto selecionado (ao clicar em um produto)
+
+Exemplo: selectedProductId
+
+Mostrar no topo da tela da listagem (como demonstração de uso do Redux):
+
+"Último produto selecionado: [nome do produto]"
+
+✳️ Extras opcionais (diferenciais)
+Implementar uma busca por nome (filtro local)
+
+Dark mode
+
+Loader animado com Tailwind
+
+Deploy no Vercel ou Netlify
+
+Testes com React Testing Library
+
+📦 Entrega
+Repositório no GitHub com README contendo:
+
+Instruções para rodar localmente
+
+Tecnologias utilizadas
+
+(Opcional) Link de deploy
+
+🚨 Importante
+O foco não está na complexidade visual, mas sim em organização de código, boas práticas, integração com a API, estado global e estilo com Tailwind.
