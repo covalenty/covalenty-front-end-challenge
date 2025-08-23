@@ -1,8 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
+import ProductSlice from "./features/ProductState/ProductSlice";
 
 export const makeStore = () => {
   return configureStore({
-    reducer: {},
+    reducer: {
+      selected: ProductSlice,
+    },
   });
 };
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import StoreProvider from "./StoreProvider";
+import StoreProvider from "../providers/StoreProvider";
+import { ReactQueryProvider } from "@/providers/ReactQueryProvider";
 
 export const metadata: Metadata = {
   title: "Covalenty Front End Challenge",
@@ -13,10 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <StoreProvider>
-        <body>{children}</body>
-      </StoreProvider>
-    </html>
+    <ReactQueryProvider>
+      <html lang="en">
+        <StoreProvider>
+          <body>{children}</body>
+        </StoreProvider>
+      </html>
+    </ReactQueryProvider>
   );
 }
